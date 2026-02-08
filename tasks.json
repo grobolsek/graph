@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "preCommit- install",
+      "detail": "Install pre-commit hooks from .pre-commit-config.yaml to .git hooks.",
+      "type": "shell",
+      "command": "pre-commit install"
+    },
+    {
+      "label": "preCommit- run all",
+      "detail": "Run pre-commit hooks described in .pre-commit-config.yaml",
+      "type": "shell",
+      "command": "pre-commit run --all-files"
+    }
+  ]
+}
